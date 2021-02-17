@@ -1,0 +1,18 @@
+# COCO 2017 dataset http://cocodataset.org - first 128 training images
+# Train command: python train.py --data coco128.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /beercups
+#     /yolov5
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: C:\Users\Zihao\Desktop\Image_analysis\Yolo\data\images\train  # 128 images
+val: C:\Users\Zihao\Desktop\Image_analysis\Yolo\data\images\val  # 128 images
+
+# number of classes
+nc: 18
+
+# class names
+names: ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light',
+        'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'F1_Car','W','Onboard']
