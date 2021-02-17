@@ -1,0 +1,3 @@
+python train.py --img 640 --batch 18 --epochs 300 --data F1.yaml --weights yolov5s.pt
+python detect.py --source C:\Users\Zihao\Desktop\Image_analysis\F1Data\Video\OneImg --weights F1_31.pt --conf 0.25
+python detect.py --source data/images --weights F1_31.pt --conf 0.25
